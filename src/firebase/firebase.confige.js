@@ -4,6 +4,8 @@ import { initializeApp } from "firebase/app";
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
+console.log('environment variable', import.meta.env.VITE_apiKey);
+
 const firebaseConfig = {
   apiKey: "AIzaSyA_fhyPtpsxmKKN1Md1NZ2u0wuZR6rfvXw",
   authDomain: "the-dragon-news-e78b8.firebaseapp.com",
